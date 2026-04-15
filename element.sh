@@ -9,7 +9,7 @@
 #           ./element.sh H
 #           ./element.sh Hydrogen
 
-PSQL="psql --username=freecodecamp --dbname=periodic_table -t --no-align -c"
+PSQL="psql --dbname=periodic_table -t --no-align -c"
 
 get_info() {
 
