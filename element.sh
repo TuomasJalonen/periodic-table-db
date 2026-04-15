@@ -11,7 +11,7 @@
 
 PSQL="psql --username=freecodecamp --dbname=periodic_table -t --no-align -c"
 
-GET_INFO() {
+get_info() {
 
 # echo message if an argument is not given
 if [[ ! $1 ]]
@@ -43,4 +43,4 @@ else
 fi
 }
 
-GET_INFO "$1"
+get_info "$1"
