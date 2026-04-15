@@ -43,4 +43,4 @@ else
 fi
 }
 
-GET_INFO $1
+GET_INFO "$1"
