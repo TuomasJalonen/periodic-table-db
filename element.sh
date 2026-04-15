@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# This script queries a database and prints infromation about chemical elements.
+# This script queries a database and prints information about chemical elements.
 # Inputs:
 # Argument 1: atomic number (INT);
-#             chemical symbol (String up to 2 characters);
-#             chemical name (String)
+#             chemical symbol (string up to 2 characters);
+#             chemical name (string)
 # Examples: ./element.sh 1
 #           ./element.sh H
 #           ./element.sh Hydrogen
