@@ -19,7 +19,7 @@ then
   echo Please provide an element as an argument.
 
 else
-  # get correct row from database using the argument
+  # get correct row from database using the argument (assume it is safe)
   ROW=$($PSQL "SELECT elements.atomic_number, name, symbol, type, atomic_mass, melting_point_celsius, boiling_point_celsius
   FROM elements
   LEFT JOIN properties ON elements.atomic_number = properties.atomic_number
